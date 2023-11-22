@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <body>
-    <h1>🏦 Introduction to Simple Bank API</h1>
-    <p>This C# script demonstrates the implementation of a simple banking API.</p>
-    <p>The API allows you to perform basic banking operations, including creating accounts, depositing and withdrawing funds, and checking balances.</p>
-    <h2>Endpoints</h2>
-    <p>1. <code>GET /api/ContaBancaria</code>: Retrieve information about all bank accounts.</p>
-    <p>2. <code>GET /api/ContaBancaria/{id}</code>: Retrieve information about a specific bank account by providing its ID.</p>
-    <p>3. <code>POST /api/ContaBancaria</code>: Create a new bank account by providing the account holder's name and initial balance.</p>
-    <p>4. <code>PUT /api/ContaBancaria/{id}/deposito</code>: Make a deposit to a specific account by providing the account ID and deposit amount.</p>
-    <p>5. <code>PUT /api/ContaBancaria/{id}/saque</code>: Make a withdrawal from a specific account by providing the account ID and withdrawal amount.</p>
-    <p>6. <code>DELETE /api/ContaBancaria/{id}</code>: Close a bank account by providing its ID.</p>
-</body>
-</html>
-
+    <h1>🎮 Simple Games </h1>
+    <p>This Csharp script contains simple implementations of classic games: Hangman & Tic-Tac-Toe.</p>
+    <h2>Hangman Game</h2>
+    <p>1. Run the script.</p>
+    <p>2. The script will randomly select a word, and you have to guess it by suggesting letters.</p>
+    <p>3. You have a limited number of incorrect guesses before the game ends.</p>
+    <h2>Tic-Tac-Toe Game</h2>
+    <p>1. Run the script.</p>
+    <p>2. Enter the positions (1-9) where you want to place 'X' or 'O' during your turn.</p>
+    <p>3. The script will display the updated board after each move.</p>
+    <p>4. The game continues until one player wins or it's a draw.</p>
